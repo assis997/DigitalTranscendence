@@ -10,6 +10,7 @@ video {
 body {
     background-color: #000;
     font-family: sans-serif;
+    margin: 0 16px;
 }
 
 a {
@@ -42,6 +43,7 @@ button {
     border: 1px solid white;
     margin-bottom: 1rem;
     font-size: 1rem;
+    corner-radius: 16px;
 }
 
 button:hover {
