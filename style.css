@@ -16,7 +16,7 @@ a {
     color: #fff;
 }
 
-#cover, #redirect {
+#cover, #appBrowser {
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -30,7 +30,7 @@ a {
     height: 100vh;̀
 }
 
-#redirect {
+#appBrowser {
     z-index: 10;
 }
 

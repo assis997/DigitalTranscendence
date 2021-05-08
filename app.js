@@ -1,8 +1,3 @@
-let ua = window.navigator.userAgent;
-let iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
-let webkit = !!ua.match(/WebKit/i);
-let iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
-
 function playVid() {
     let vid = document.getElementById("bgvid");
     let cover = document.getElementById("cover");
@@ -15,14 +10,20 @@ function moveVid() {
     video.classList.add("moveUp");
 }
 
-if(navigator.userAgent.includes("Instagram")){
-    let redirect = document.getElementById("redirect");
-    redirect.classList.remove("hide");
+function hideRedirect() {
+    document.getElementById("appBrowser").classList.add("hide");
 }
 
-if (iOSSafari == true) {
-    console.log("iOS Safari");
-    moveVid();
-};
+function isFacebookApp() {
+    var ua = navigator.userAgent || navigator.vendor || window.opera;
+    return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1) || (ua.indexOf('Instagram') > -1);
+}
 
-console.log(ua)
+if (isFacebookApp == true) {
+    console.log("app");
+}
+
+if (isFacebookApp !== true) {
+    console.log("no app");
+    hideRedirect();
+}
