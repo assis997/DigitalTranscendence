@@ -16,7 +16,7 @@ a {
     color: #fff;
 }
 
-#cover, #appBrowser {
+#cover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -28,10 +28,6 @@ a {
     z-index: 2;
     width: 100vw;
     height: 100vh;̀
-}
-
-#appBrowser {
-    z-index: 10;
 }
 
 p {
