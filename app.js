@@ -15,6 +15,11 @@ function moveVid() {
     video.classList.add("moveUp");
 }
 
+if(navigator.userAgent.includes("Instagram")){
+    let redirect = document.getElementById("redirect");
+    redirect.classList.remove("hide");
+}
+
 if (iOSSafari == true) {
     console.log("iOS Safari");
     moveVid();

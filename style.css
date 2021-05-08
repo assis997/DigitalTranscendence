@@ -16,7 +16,7 @@ a {
     color: #fff;
 }
 
-#cover, div.front {
+#cover, #redirect {
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -27,7 +27,11 @@ a {
     background-color: black;
     z-index: 2;
     width: 100vw;
-    height: 100vh;
+    height: 100vh;̀
+}
+
+#redirect {
+    z-index: 10;
 }
 
 p {
