@@ -35,6 +35,12 @@ p {
     font-size: 14px;
 }
 
+#concept p {
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
 button {
     color: white;
     background-color: black;
@@ -62,4 +68,14 @@ div#cover > * {
     max-width: 80%;
     text-align: center;
     margin: 16px 0;
+}
+
+
+div#links {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
 }
