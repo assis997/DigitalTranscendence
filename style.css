@@ -27,7 +27,8 @@ a {
     background-color: black;
     z-index: 2;
     width: 100vw;
-    height: 100vh;̀
+    height: 100vh;
+    padding-top: 10vh;
 }
 
 p {
@@ -72,7 +73,7 @@ div#cover > * {
 
 
 div#links {
-    margin-top: 20vh;
+    margin-top: 30vh;
     bottom: 1rem;
     display: flex;
     justify-content: space-around;
