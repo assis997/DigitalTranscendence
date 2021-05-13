@@ -72,10 +72,10 @@ div#cover > * {
 
 
 div#links {
-    position: absolute;
+    margin-top: 20vh;
     bottom: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     max-width: 400px;
 }
