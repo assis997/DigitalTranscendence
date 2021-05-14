@@ -61,10 +61,6 @@ button:hover {
     visibility: hidden;
 }
 
-video.moveUp {
-    top: -50px;
-}
-
 div#cover > * {
     max-width: 80%;
     text-align: center;
@@ -73,7 +69,7 @@ div#cover > * {
 
 
 div#links {
-    margin-top: 30vh;
+    margin-top: 20vh;
     bottom: 1rem;
     display: flex;
     justify-content: space-around;
